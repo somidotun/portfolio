@@ -25,7 +25,7 @@ const Herro = () => {
   return (
     <div className="flex flex-col w-full gap-5 p-5 md:justify-between md:flex-row md:px-14 bg-slate-100">
       {/* text */}
-      <div className="flex flex-col gap-5 pt-5 font-serif md:pt-14 lg:w-48">
+      <div className="flex flex-col gap-5 pt-5 font-serif md:pt-14 lg:w-72">
         {/* text */}
         <div className="flex flex-col gap-4">
           <p className="text-xl"> Hello, my name is </p>
@@ -109,7 +109,7 @@ const Herro = () => {
       {/* image */}
       <div>
         <Image
-          className="rounded-xl w-80 md:w-64"
+          className="rounded-xl w-96 md:w-64"
           src={herro}
           alt="picture of someone laptop view"
         />
