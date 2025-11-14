@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import ThemeState from "../../store/themeState";
 import { IoIosMenu } from "react-icons/io";
 // import Navlist from "./navlist";
 import { motion } from "framer-motion";
