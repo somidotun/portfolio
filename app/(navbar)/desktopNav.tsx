@@ -18,7 +18,7 @@ const DestopNav = () => {
     <div>
       <nav className="flex flex-row justify-between w-full p-3 text-sm">
         {/* logo */}
-        <p className="">
+        <p className="text-xl ">
           <Link href={"/"}>
             Somidotun<span className="text-blue-700">.dev</span>
           </Link>
