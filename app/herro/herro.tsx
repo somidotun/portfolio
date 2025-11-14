@@ -39,7 +39,7 @@ const Herro = () => {
         </div>
 
         {/* buttons */}
-        <div className="flex flex-row justify-between pr-6 md:gap-5 md:justify-normal">
+        <div className="flex flex-row justify-between pr-2 md:gap-5 md:justify-normal">
           <Button
             text="Get in touch"
             style="hover:border-slate-100 hover:bg-blue-700 hover:text-white"
