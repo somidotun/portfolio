@@ -13,8 +13,8 @@ const Herro = () => {
   const [typewriter] = useTypewriter({
     words: [
       "Frontend  Developer.",
-      "Backend  Developer.",
-      "Fullstack  Developer.",
+      "Backend  Developer(in view).",
+      "Fullstack  Developer(in view).",
     ],
     loop: true,
     typeSpeed: 70,
@@ -25,7 +25,7 @@ const Herro = () => {
   return (
     <div className="flex flex-col w-full gap-5 p-5 md:justify-between md:flex-row md:px-14 bg-slate-100">
       {/* text */}
-      <div className="flex flex-col gap-5 pt-5 font-serif md:pt-14 ">
+      <div className="flex flex-col gap-5 pt-5 font-serif md:pt-10 ">
         {/* text */}
         <div className="flex flex-col gap-4">
           <p className="text-xl"> Hello, my name is </p>
@@ -52,7 +52,7 @@ const Herro = () => {
             title="download"
           >
             <Button
-              text="DOWNLOAD"
+              text=" Download cv"
               style="hover:border-slate-100 hover:bg-blue-700 hover:text-white"
             />
           </a>
@@ -107,9 +107,9 @@ const Herro = () => {
       </div>
 
       {/* image */}
-      <div>
+      <div className="w-full pl-5 md:pl-0 md:w-[25rem] h-[20rem] ">
         <Image
-          className="rounded-xl w-96 md:w-64"
+          className="rounded-xl w-96 "
           src={herro}
           alt="picture of someone laptop view"
         />
