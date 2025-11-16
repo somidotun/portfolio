@@ -36,6 +36,7 @@ export default function RootLayout({
 
         {/* footer */}
         <p>Footer</p>
+        <p>Footer</p>
       </body>
     </html>
   );

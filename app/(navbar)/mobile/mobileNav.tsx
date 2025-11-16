@@ -18,12 +18,12 @@ const MobileNav = () => {
   const variant3 = {
     // initial
     hidden: {
-      x: 0,
+      x: "-100%",
     },
 
     // animate
     visible: {
-      x: 100,
+      x: 0,
       transition: {
         duration: 0.5,
       },
@@ -76,7 +76,7 @@ const MobileNav = () => {
 
         {/* hamburger  menu and dark mode */}
 
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-2 z-100">
           {/* hamburger menu  */}
           <div onClick={toggle}>
             {isToggled ? (
@@ -85,7 +85,7 @@ const MobileNav = () => {
                 initial="hidden"
                 animate="visible"
               >
-                <MdOutlineCancel className="text-xl" />
+                <MdOutlineCancel className="text-2xl" />
               </motion.div>
             ) : (
               <motion.div
@@ -99,13 +99,8 @@ const MobileNav = () => {
           </div>
         </div>
       </nav>
-      <motion.div
-        variants={variant3}
-        className="top-0"
-        initial="hidden"
-        animate="visible"
-      >
-        <div>{isToggled && <DynamicNavlints />}</div>
+      <motion.div variants={variant3} initial="hidden" animate="visible">
+        {isToggled && <DynamicNavlints />}
       </motion.div>
     </div>
   );

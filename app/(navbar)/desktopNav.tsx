@@ -2,21 +2,21 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// import ThemeState from "../store/themeState";
 
 const DestopNav = () => {
   // nav links
   const navs = [
-    { id: 1, name: "About", link: "/about" },
-    { id: 2, name: "Services", link: "/services" },
-    { id: 3, name: "Projects", link: "/projects" },
-    { id: 4, name: "Contact", link: "/contact" },
+    { id: 1, name: "About", link: "#about" },
+    { id: 2, name: "Skill", link: "#skill" },
+    { id: 3, name: "Services", link: "#services" },
+    { id: 4, name: "Projects", link: "#projects" },
+    { id: 5, name: "Contact", link: "#contact" },
   ];
 
   const pathName = usePathname();
   return (
     <div>
-      <nav className="flex flex-row justify-between w-full p-3 text-sm">
+      <nav className="flex flex-row justify-between w-full p-3 px-7 text-base">
         {/* logo */}
         <p className="text-xl ">
           <Link href={"/"}>
@@ -27,14 +27,14 @@ const DestopNav = () => {
         {/* navlinks */}
         <div className="flex flex-col  gap-7 md:flex-row">
           {navs.map((nav) => (
-            <ul
+            <div
               key={nav.id}
               className={`${pathName === nav.link ? "text-blue-900" : ""}`}
             >
               <Link className="hover:text-blue-700" href={nav.link}>
                 {nav.name}
               </Link>
-            </ul>
+            </div>
           ))}
         </div>
 
