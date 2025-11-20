@@ -7,14 +7,12 @@ import Supabase from "@/app/images/backend/supabase.png";
 import SkillProp from "../skillProp";
 import "../backend/backend.css";
 
-// type Props = {};
-
 const Backend = () => {
   return (
-    <section className="border h-80 bg-white py-5 ">
+    <section className="border h-80 md:w-72  lg:w-80 bg-white py-5 px-5 ">
       <h1 className="text-2xl text-center pb-4">Backend(in view)</h1>
 
-      <div className=" px-4 w-72">
+      <div className=" border md:w-60 lg:w-72">
         <div className="parent py-3">
           <SkillProp
             image={firebase}

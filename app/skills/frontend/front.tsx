@@ -13,6 +13,8 @@ import typescript from "@/app/images/frontendPics/typescript.svg";
 import Vite from "@/app/images/frontendPics/Vite.svg";
 import Zod from "@/app/images/frontendPics/Zod.svg";
 import zustand from "@/app/images/frontendPics/zustand.svg";
+import Netlify from "@/app/images/frontendPics/Netlify.svg";
+import vercel from "@/app/images/frontendPics/vercel.svg";
 import SkillProp from "../skillProp";
 import "../frontend/skill.css";
 
@@ -26,8 +28,8 @@ const Front = () => {
       <div className=" bg-white  border py-5 scroll-mt-14">
         <h1 className="text-2xl text-center pb-4">Frontend </h1>
 
-        <div className=" px-4 gap-5 md:w-80">
-          <div className="parent border  md:w-72 py-3">
+        <div className=" px-4 gap-5 md:w-72 lg:w-80">
+          <div className="parent border md:w-60 lg:w-72 py-3">
             <SkillProp image={html} text="html" name="html" style="div1" />
             <SkillProp image={css} text="css " name="css " style="div2" />
             <SkillProp
@@ -53,13 +55,17 @@ const Front = () => {
           </p>
 
           {open && (
-            <div className="parent2 border px-4 md:w-72 gap-5 py-3">
+            <div
+              className="parent2 border px-4  md:w-60 
+            lg:w-72 gap-5 py-3"
+            >
               <SkillProp
                 image={Framer}
                 style="div5"
                 text="motion "
                 name="motion "
               />
+
               <SkillProp
                 image={Tailwindcss}
                 text="Tailwindcss"
@@ -92,6 +98,20 @@ const Front = () => {
                 text="zustand "
                 style="div12"
                 name="zustand"
+              />
+
+              <SkillProp
+                image={Netlify}
+                style="div13"
+                text="Netlify"
+                name="Netlify"
+              />
+
+              <SkillProp
+                image={vercel}
+                style="div14"
+                text="vercel"
+                name="vercel"
               />
             </div>
           )}
