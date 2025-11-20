@@ -8,7 +8,7 @@ const DestopNav = () => {
   const navs = [
     { id: 1, name: "About", link: "#about" },
     { id: 2, name: "Skill", link: "#skill" },
-    { id: 3, name: "Services", link: "#services" },
+    // { id: 3, name: "Services", link: "#services" },
     { id: 4, name: "Projects", link: "#projects" },
     { id: 5, name: "Contact", link: "#contact" },
   ];
@@ -16,7 +16,7 @@ const DestopNav = () => {
   const pathName = usePathname();
   return (
     <div>
-      <nav className="flex flex-row justify-between w-full p-3 px-7 text-base">
+      <nav className="flex flex-row justify-between w-full p-3 px-10 text-base">
         {/* logo */}
         <p className="text-xl ">
           <Link href={"/"}>

@@ -1,5 +1,6 @@
 import AboutMe from "./AboutMe/AboutMe";
 import Herro from "./herro/herro";
+import Project from "./project/project";
 import Skill from "./skills/skill";
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
 
       {/* skill */}
       <Skill />
+
+      {/* prpject */}
+      <Project />
     </div>
   );
 }

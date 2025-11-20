@@ -6,7 +6,7 @@ const Navlist = () => {
   const navs = [
     { id: 1, name: "About", link: "#about" },
     { id: 2, name: "Skill", link: "#skill" },
-    { id: 3, name: "Services", link: "#services" },
+    // { id: 3, name: "Services", link: "#services" },
     { id: 4, name: "Projects", link: "#projects" },
     { id: 5, name: "Contact", link: "#contact" },
   ];
