@@ -46,13 +46,13 @@ const ProjectProp = ({
 }: Props) => {
   return (
     <section
-      className="w-[22rem] bg-slate-100 
+      className="md:w-[22rem] bg-slate-100 
     flex flex-col gap-3 p-5 rounded-3xl"
     >
       <Image
         src={image}
         alt={alt}
-        className={`${style} rounded-xl w-[20rem] h-48`}
+        className={`${style} rounded-xl md:w-[20rem] h-48`}
       />
 
       <h1 className={`text-center pt-2 text-xl ${headStyle}`}>{projectName}</h1>
