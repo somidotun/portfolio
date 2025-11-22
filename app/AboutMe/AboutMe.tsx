@@ -8,7 +8,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section className="px-5 md:px-14 py-3" id="about">
-      <h1 className="text-2xl my-5  border-b-2 border-blue-700 w-24">
+      <h1 className="text-2xl my-5  border-b-2 border-blue-700 w-28 md:w-24">
         About me
       </h1>
       <div className="flex flex-col md:flex-row gap-7">

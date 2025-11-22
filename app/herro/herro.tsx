@@ -15,6 +15,8 @@ const Herro = () => {
       "Frontend  Developer.",
       "Backend  Developer(in view).",
       "Fullstack  Developer(in view).",
+      "video editor.",
+      "industrial and production engineer by studies.",
     ],
     loop: true,
     typeSpeed: 70,
@@ -25,7 +27,10 @@ const Herro = () => {
   return (
     <div className="flex flex-col w-full gap-5 p-5 md:justify-between md:flex-row md:px-14 bg-slate-100">
       {/* text */}
-      <div className="flex flex-col gap-5 pt-5 font-serif md:pt-10 ">
+      <div
+        className="flex flex-col  gap-5 pt-5
+       font-serif md:pt-10 "
+      >
         {/* text */}
         <div className="flex flex-col gap-4">
           <p className="text-xl"> Hello, my name is </p>
@@ -39,21 +44,37 @@ const Herro = () => {
         </div>
 
         {/* buttons */}
-        <div className="flex flex-row justify-between pr-2 md:gap-5 md:justify-normal">
-          <Button
+        <div
+          className="flex flex-col 
+           justify-between pr-2
+          gap-2 md:justify-normal"
+        >
+          {/* <Button
             text="Get in touch"
             style="hover:border-slate-100 hover:bg-blue-700 hover:text-white"
-          />
+          /> */}
 
           <a
             href="/Ayo-oluwole-Oluwasomidotun-john.pdf"
-            download="Ayo-oluwole-Oluwasomidotun-john CV"
+            download="Ayo-oluwole-Oluwasomidotun-john-software CV"
             rel="noopener noreferrer"
             title="download"
           >
             <Button
-              text=" Download cv"
-              style="hover:border-slate-100 hover:bg-blue-700 hover:text-white"
+              text=" Download cv as a software engineer"
+              style="hover:border-slate-100 w-full hover:bg-blue-700 hover:text-white"
+            />
+          </a>
+
+          <a
+            href="/Ayo-Oluwole-Oluwasomidotun-John-industrial.pdf"
+            download="Ayo-oluwole-Oluwasomidotun-john-industrial CV"
+            rel="noopener noreferrer"
+            title="download"
+          >
+            <Button
+              text="Download cv as a industrial engineer"
+              style="hover:border-slate-100 w-full hover:bg-blue-700 hover:text-white"
             />
           </a>
         </div>

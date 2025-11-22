@@ -1,10 +1,12 @@
-.scale:hover {
-  transform: scale(1.1);
-  transition-duration: 150ms;
-}
+@media (width >=768px) {
+  .scale:hover {
+    transform: scale(1.05);
+    transition-duration: 150ms;
+  }
 
-.scale:active {
-  transform: translateY(10%);
-  transform: scale(0.9);
-  transition-duration: 150ms;
+  .scale:active {
+    transform: translateY(10%);
+    transform: scale(0.9);
+    transition-duration: 150ms;
+  }
 }

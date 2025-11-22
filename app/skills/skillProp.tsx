@@ -9,7 +9,7 @@ type Props = {
 
 const SkillProp = ({ image, text, name, style }: Props) => {
   return (
-    <section className="w- pl-8">
+    <section className=" pl-8">
       <Image src={image} alt={text} className={`${style} h-10 w-10`} />
       <span className="text-center pl-1">{name}</span>
     </section>
