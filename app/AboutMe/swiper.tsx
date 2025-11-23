@@ -26,18 +26,18 @@ const Slide = () => {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, EffectFade]}
-      className="mySwiper rounded-xl w-96 md:w-56  md:h-[20.9rem]"
+      className="mySwiper rounded-xl w-96 md:w-56  h-[20.9rem]"
     >
-      <SwiperSlide className="rounded-xl w-96 md:w-56  md:h-[20.9rem]">
+      <SwiperSlide className="rounded-xl w-96 md:w-56  h-[20.9rem]">
         <Image
-          className="rounded-xl w-96 md:w-60 md:h-[20.9rem]"
+          className="rounded-xl w-96 md:w-60 h-[20.9rem]"
           src={Dotun}
           alt="picture of the developer"
         />
       </SwiperSlide>
-      <SwiperSlide className="rounded-xl w-96 md:w-60  md:h-[20.9rem]">
+      <SwiperSlide className="rounded-xl w-96 md:w-60  h-[20.9rem]">
         <Image
-          className="rounded-xl w-96 md:w-56 md:h-[20.9rem]"
+          className="rounded-xl w-96 md:w-56 h-[20.9rem]"
           src={aboutMe}
           alt="picture of the developer"
         />
