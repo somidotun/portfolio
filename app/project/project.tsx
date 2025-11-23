@@ -50,7 +50,7 @@ const Project = () => {
         {/* fly emirate*/}
         <ProjectProp
           image={flyEmirate}
-          projectName="Fly Emirate"
+          projectName="Fly Emirate Clone"
           projectText="An Emirates-inspired flight booking platform with responsive design and interactive components."
           liveLink="https://fly-emirate-clone.netlify.app/"
           githubLink="https://github.com/somidotun/fly-emirate-clone"
