@@ -1,7 +1,4 @@
-import Image from "next/image";
-
-import aboutMe from "@/app/images/AboutMe.jpg";
-import React from "react";
+import Slide from "./swiper";
 
 // type Props = {};
 
@@ -13,13 +10,8 @@ const AboutMe = () => {
       </h1>
       <div className="flex flex-col md:flex-row gap-7">
         {/* image */}
-        <div className="md:w-1/3">
-          <Image
-            className="rounded-xl w-96 md:w-56"
-            src={aboutMe}
-            alt="picture of someone laptop view"
-          />
-        </div>
+
+        <Slide />
 
         {/* text */}
         <div className="md:w-2/3">
@@ -27,7 +19,8 @@ const AboutMe = () => {
             A passionate and detail-oriented Frontend Developer with a focus on
             crafting responsive and engaging user interfaces. My expertise lies
             in the modern JavaScript ecosystem, primarily using React, Next.js,
-            and TypeScript to build scalable and maintainable web applications.{" "}
+            and TypeScript to build scalable and maintainable web
+            applications.{" "}
           </p>
 
           <p>
