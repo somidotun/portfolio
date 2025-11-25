@@ -6,7 +6,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandTypescript } from "react-icons/tb";
 import { FiFramer } from "react-icons/fi";
-import zustand from "@/app/images/frontendPics/zustand.svg";
+// import zustand from "@/app/images/frontendPics/zustand.svg";
 import React from "react";
 
 type Props = {

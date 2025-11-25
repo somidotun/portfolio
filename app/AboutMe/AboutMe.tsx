@@ -11,33 +11,40 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row gap-7">
         {/* image */}
 
-        <Slide />
+        <div className="md:w-1/3">
+          <Slide />
+        </div>
 
         {/* text */}
         <div className="md:w-2/3">
           <p>
-            A passionate and detail-oriented Frontend Developer with a focus on
-            crafting responsive and engaging user interfaces. My expertise lies
-            in the modern JavaScript ecosystem, primarily using React, Next.js,
-            and TypeScript to build scalable and maintainable web
+            My name is Ayo-oluwole Oluwasomidotun John, a graduate of Industrial
+            and Production Engineering from the Federal University of Technology
+            Akure with a Second Class Upper degree. My journey in frontend
+            development began four years ago, starting with the fundamentals of
+            HTML and CSS before advancing to JavaScript.{" "}
+          </p>
+          <p>
+            I am now a passionate and detail-oriented Frontend Developer with a
+            focus on crafting responsive engaging user interfaces. My expertise
+            lies in the modern JavaScript ecosystem, primarily using React,
+            Next.js, and TypeScript to build scalable and maintainable web
             applications.{" "}
           </p>
-
           <p>
-            I enjoy the entire process from concept to deployment—translating
+            I enjoy the entire process from concept to deployment— translating
             design mockups into functional components, managing application
             state with tools like Zustand, and ensuring a seamless user
             experience with integrated form validation and slick animations via
-            Framer Motion and GSAP.{" "}
+            Framer Motion and GSAP.
           </p>
-
           <p>
             I take pride in writing clean, efficient code and have a proven
             track record of improving performance, such as reducing bundle sizes
-            by up to 30%. I am a collaborative team player, experienced in
-            remote workflows using Git and CI/CD practices, and i am now eager
-            to contribute my skills to a live production project to help achieve
-            key product milestones.
+            by up to 30%. As a collaborative team player experienced in remote
+            workflows using Git and CI/CD practices, I am eager to contribute my
+            skills to a live production project to help achieve key product
+            milestones.
           </p>
         </div>
       </div>

@@ -76,7 +76,7 @@ const Footer = () => {
 
       {/* developed */}
       <p className="flex flex-row gap-1 text-center">
-        Developer by somidotun.dev| {date.getFullYear()} All right reserved
+        developed by somidotun.dev| {date.getFullYear()} All right reserved
       </p>
     </section>
   );
