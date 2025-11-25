@@ -7,6 +7,7 @@ import herro from "@/app/images/herro.jpg";
 import { useTypewriter } from "react-simple-typewriter";
 import Button from "../props/button";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 const Herro = () => {
   // typewriter effect
@@ -15,8 +16,6 @@ const Herro = () => {
       "Frontend  Developer.",
       "Backend  Developer(in view).",
       "Fullstack  Developer(in view).",
-      "video editor.",
-      "industrial and production engineer by studies.",
     ],
     loop: true,
     typeSpeed: 70,
@@ -45,14 +44,17 @@ const Herro = () => {
 
         {/* buttons */}
         <div
-          className="flex flex-col 
+          className="flex flex-col md:flex-row 
            justify-between pr-2
           gap-2 md:justify-normal"
         >
-          {/* <Button
-            text="Get in touch"
-            style="hover:border-slate-100 hover:bg-blue-700 hover:text-white"
-          /> */}
+          <Link href="#contact">
+            <Button
+              text="Get in touch"
+              style="hover:border-slate-100
+               w-full hover:bg-blue-700 hover:text-white"
+            />
+          </Link>
 
           <a
             href="/Ayo-oluwole-Oluwasomidotun-john.pdf"
@@ -61,19 +63,7 @@ const Herro = () => {
             title="download"
           >
             <Button
-              text=" Download cv as a software engineer"
-              style="hover:border-slate-100 w-full hover:bg-blue-700 hover:text-white"
-            />
-          </a>
-
-          <a
-            href="/Ayo-Oluwole-Oluwasomidotun-John-industrial.pdf"
-            download="Ayo-oluwole-Oluwasomidotun-john-industrial CV"
-            rel="noopener noreferrer"
-            title="download"
-          >
-            <Button
-              text="Download cv as a industrial engineer"
+              text=" Download cv"
               style="hover:border-slate-100 w-full hover:bg-blue-700 hover:text-white"
             />
           </a>

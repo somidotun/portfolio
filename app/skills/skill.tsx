@@ -9,7 +9,7 @@ const Skill = () => {
       id="skill"
       className="bg-slate-100  mt-5 px-5 md:px-7 lg:px-14 py-7"
     >
-      <h1 className="text-2xl mb-5  border-b-2 border-blue-700 w-14">Skill</h1>
+      <h1 className="text-2xl mb-5  border-b-2 border-blue-700 w-14">Skills</h1>
 
       <div
         className=" flex flex-col gap-5
