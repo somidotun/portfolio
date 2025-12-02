@@ -24,10 +24,10 @@ const Herro = () => {
   });
 
   return (
-    <div className="flex flex-col w-full gap-5 p-5 md:justify-between md:flex-row md:px-14 bg-slate-100">
+    <div className="flex flex-col  w-full gap-5 p-5 md:justify-between md:flex-row md:px-14 bg-slate-100">
       {/* text */}
       <div
-        className="flex flex-col  gap-5 pt-5
+        className="flex flex-col max-w-fit gap-5 pt-5
        font-serif md:pt-10 "
       >
         {/* text */}
@@ -118,7 +118,7 @@ const Herro = () => {
       </div>
 
       {/* image */}
-      <div className="w-full pl-5 md:pl-0 md:w-[25rem] h-[20rem] ">
+      <div className="w-full pl-5 md:pl-0 md:max-w-[25rem] h-[20rem] ">
         <Image
           className="rounded-xl w-96 "
           src={herro}
